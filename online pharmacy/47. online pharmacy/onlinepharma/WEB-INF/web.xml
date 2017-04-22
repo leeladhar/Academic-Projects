@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>onlinebooks</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+    <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>Admin</servlet-name>
+    <servlet-class>com.Admin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin</servlet-name>
+    <url-pattern>/Admin</url-pattern>
+  </servlet-mapping>
+   
+
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddMedicine</servlet-name>
+    <servlet-class>com.AddMedicine</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddMedicine</servlet-name>
+    <url-pattern>/AddMedicine</url-pattern>
+  </servlet-mapping>
+	
+ <servlet>
+    <servlet-name>Purchase</servlet-name>
+    <servlet-class>com.Purchase</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Purchase</servlet-name>
+    <url-pattern>/Purchase</url-pattern>
+  </servlet-mapping>
+
+
+<servlet>
+    <servlet-name>Finish</servlet-name>
+    <servlet-class>com.Finish</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Finish</servlet-name>
+    <url-pattern>/Finish</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateOrder</servlet-name>
+    <servlet-class>com.UpdateOrder</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateOrder</servlet-name>
+    <url-pattern>/UpdateOrder</url-pattern>
+  </servlet-mapping>
+</web-app>

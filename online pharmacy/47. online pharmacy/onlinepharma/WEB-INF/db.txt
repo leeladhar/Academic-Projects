@@ -1,0 +1,8 @@
+create database onlinepharma;
+use onlinepharma;
+
+create table addmedicine(medicine_name varchar(100),quantity int,expiry_date date,price double,manufacturer varchar(50),supplier  varchar(100),expiry_status varchar(20));
+
+create table purchase(username varchar(100),order_data varchar(500),total_amount double,order_date date,address  varchar(150),status varchar(50));
+
+create table newuser(username varchar(50),password varchar(50),contact_no varchar(15),address varchar(100),email  varchar(100));

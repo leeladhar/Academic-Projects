@@ -1,0 +1,7 @@
+1. create the database, db file is available in WEB-INF folder.
+
+2. deploy the application into the tomcat web apps folder.
+
+3. start the tomcat server.
+
+4. make the request to our application.
